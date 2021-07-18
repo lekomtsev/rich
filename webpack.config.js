@@ -38,7 +38,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './assets/html/index.html',
       filename: 'index.html',
-      minify: !isDev, // Disable minification during production mode
+      minify: false, // Disable minification during production mode
       hash: true,
     }),
 
