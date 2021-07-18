@@ -17,14 +17,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+github.com:lekomtsev/jsmaster-start-template.git"
+    "url": "git+github.com:lekomtsev/lekomtsev/rich.git"
   },
   "author": "jsmaster",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lekomtsev/jsmaster-start-template/issues"
+    "url": "https://github.com/lekomtsev/rich.git/issues"
   },
-  "homepage": "https://github.com/lekomtsev/jsmaster-start-template#readme",
+  "homepage": "https://github.com/lekomtsev/rich.git#readme",
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.12.3",
