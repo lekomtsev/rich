@@ -1,5 +1,5 @@
 const loading = () => {
-  console.log('loading')
+  console.log('Идет загрузка...');
 }
 
 export { loading }

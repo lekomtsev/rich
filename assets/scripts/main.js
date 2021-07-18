@@ -1,10 +1,9 @@
-// Vendors
+// Vendors and Plugins
 // import './vendor/jquery'
 // import './vendors/bootstrap'
 // import './vendor/fontawesome'
 
-// Plugins
-// import ionRangeSlider from 'ion-rangeslider'
+// Components
 
 // Pages
 // Главная страница
