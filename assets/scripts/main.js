@@ -7,4 +7,9 @@
 // import ionRangeSlider from 'ion-rangeslider'
 
 // Pages
+// Главная страница
 import './pages/main/index.js';
+
+// Страница детального просмотра товара
+// Страница корзины
+// ...

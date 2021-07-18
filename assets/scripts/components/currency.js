@@ -42,7 +42,6 @@ const displayCurrency = (data) => {
  */
 
 const templateCurrency = (wallet) => {
-  console.log(wallet, 'templateCurrency')
   let previous = wallet.Previous - wallet.Value;
   const isSuccess = previous > 0;
   const displayAction = isSuccess ? 'currency__display--success' : 'currency__display--danger';
@@ -77,11 +76,12 @@ const getDataCurrency = () => {
     .then((data) => {
       displayCurrency(data.Valute);
     })
-    .catch(() => {
-      console.warn('Ошибка в запросе!!! (getDataCurrency)');
+    .catch((err) => {
+      console.warn(err,'Ошибка в запросе!!! (getDataCurrency)');
     })
 }
 
+// Если делать preloader заводим handleCurrency()
 document.addEventListener('DOMContentLoaded', () => {
   getDataCurrency();
 });

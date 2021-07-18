@@ -11,10 +11,8 @@
 // @import "./vendors/vendors";
 
 // Abstracts
-// - tools and helpers
 // @import "./abstracts/mixins";
 @import "abstracts/variables";
-@import "./base/helpers";
 
 // Base
 @import "base/base";
@@ -33,6 +31,9 @@
 // Pages
 @import "pages/index";
 @import "pages/page";
+
+// Helpers
+@import "./base/helpers";
 
 // Themes
 // @import "./themes/default";
