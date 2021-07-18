@@ -1,0 +1,58 @@
+// Buttons and links
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  border-radius: 2px;
+  font-family: inherit;
+  letter-spacing: 0.02em;
+  background: transparent;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  cursor: pointer;
+}
+
+.button-outline-danger {
+  border: 1px solid var(--color-cinnabar);
+  color: $color-cinnabar;
+  background: transparent;
+}
+
+.button-outline-danger:hover,
+.button-outline-danger:active {
+  border-color: #eb765b;
+  color: $color-white;
+}
+
+.button-outline-danger:hover {
+  background: #eb765b;
+}
+
+.button-outline-danger:active {
+  background: #bc391b;
+}
+
+.button--danger {
+  color: $color-white;
+  background: $color-cinnabar;
+}
+
+.button--danger:hover {
+  background: #eb765b;
+}
+
+.button--danger:active {
+  background: #bc391b;
+}
+
+.button--sm {
+  // padding: 7px;
+}
+
+.button--md {
+  padding: 10px;
+}
+
+.button--lg {
+  padding: 15px 12px;
+}

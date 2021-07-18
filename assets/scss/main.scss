@@ -1,0 +1,38 @@
+// 7-1 Sass Architecture
+// https://sass-guidelin.es/#the-7-1-pattern
+
+// Normalize
+@import "~normalize.css";
+
+// Fonts
+@import "base/fonts";
+
+// Vendors
+// @import "./vendors/vendors";
+
+// Abstracts
+// - tools and helpers
+// @import "./abstracts/mixins";
+@import "abstracts/variables";
+@import "./base/helpers";
+
+// Base
+@import "base/base";
+
+// Components
+@import "./components/buttons";
+@import "./components/currency";
+@import "./components/product";
+@import "./components/stars";
+
+// Layout
+// - everything that takes part in laying out the site/application
+@import "partials/header";
+@import "partials/footer";
+
+// Pages
+@import "pages/index";
+@import "pages/page";
+
+// Themes
+// @import "./themes/default";

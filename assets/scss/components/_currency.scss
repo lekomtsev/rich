@@ -1,0 +1,84 @@
+.currency {
+  border: 1px solid #fff3f0;
+  border-radius: 2px;
+  padding: 24px 26px;
+  background: $color-white;
+}
+
+.currency__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.currency__display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  border-radius: 2px;
+  padding: 0 16px;
+  height: 62px;
+}
+
+.currency__display--success {
+  background: #fcfdfb;
+}
+
+.currency__display--danger {
+  background: #fdfbfb;
+}
+
+.currency__name {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.currency__state {
+  margin-right: 12px;
+  width: 10px;
+  height: 16px;
+}
+
+.currency__display--success .currency__state {
+  background: url("../../images/arrow-up.svg") no-repeat center;
+}
+
+.currency__display--danger .currency__state {
+  background: url("../../images/arrow-down.svg") no-repeat center;
+}
+
+.currency__number {
+  letter-spacing: 0.02em;
+}
+
+.currency__previous {
+  margin-right: 7px;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+}
+
+.currency__display--success .currency__previous {
+  color: #53c058;
+}
+
+.currency__display--danger .currency__previous {
+  color: #ec533e;
+}
+
+.currency__display--success .currency__previous::before {
+  content: "+";
+  margin-right: 3px;
+}
+
+.currency__display--danger .currency__previous::before {
+  content: "-";
+  margin-right: 3px;
+}
+
+.currency__button {
+  width: 100%;
+}
